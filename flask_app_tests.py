@@ -50,7 +50,7 @@ print(" ")
 print(" ")
 print(" ")
 
-payload = [{"testing for string"}]
+payload = ["testing for string"]
 r = requests.post(f"{host}/predict", json=payload)
 print(r.text)
 print(" ")
