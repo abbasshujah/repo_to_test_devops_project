@@ -46,3 +46,20 @@ payload = [{"a" : 5909, "b" : 5, "c" : 10155, "d" : 830, "e" : 3636},
 
 r = requests.post(f"{host}/predict", json=payload)
 print(r.text)
+print(" ")
+print(" ")
+print(" ")
+
+payload = ["testing for string"]
+r = requests.post(f"{host}/predict", json=payload)
+print(r.text)
+print(" ")
+print(" ")
+print(" ")
+
+payload= [{"a" : 5909, "b" : 5, "c" : 10155, "d" : 830, "e" : 3636}]
+r = requests.post(f"{host}/predict", json=payload)
+print(r.text)
+print(" ")
+print(" ")
+print(" ")
